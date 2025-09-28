@@ -15,7 +15,7 @@ public class FrontServlet extends HttpServlet {
         response.setContentType("text/plain");
         PrintWriter out = response.getWriter();
         out.println("Exemple : URL demandée: " + request.getRequestURL().toString());
-        System.out.println("Exemple : URL demandée: " + request.getRequestURL().toString());
+        System.out.println("URL demandée: " + request.getRequestURL().toString()+" n'importe quelle requete");
     }
 
     @Override
